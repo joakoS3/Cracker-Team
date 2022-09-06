@@ -184,15 +184,12 @@ table {
         font-size: 3.5rem;
         padding: 3.5rem;
     }
-    .navbar{
-        display: none;
-    }
+    
 }
 
 @media screen and (min-width : 992px ){
-    .med {
+    .navbar {
         display: none;
-
     }
 }
 
