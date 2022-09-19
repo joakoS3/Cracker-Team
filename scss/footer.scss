@@ -1,10 +1,12 @@
 footer {
     margin: 50px;
     p {
-        color: #9448BC;
+        color: map-get($colors, primario);
         text-align: center;
         font-size: 30px;
         margin-bottom: 20px;
+    }
+  
     }
     .links {
         display: flex;
@@ -17,4 +19,3 @@ footer {
             }
         }
     }
-}

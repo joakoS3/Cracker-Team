@@ -1,19 +1,21 @@
+@mixin dis( $disp , $direct ) {
+    display: $disp;
+    flex-direction: $direct;
+}
 header{
     .showcase{
         width: 100%;
         height: 550px;
         margin-bottom: 25px;
-        display: flex;
-        flex-direction: column;
+        @include dis( flex, column)
         h1 {
             font-size: 75px;
-            display: flex;
-            flex-direction: column;
+            @include dis( flex, column)
             align-items: center;
-            color: #9448BC;
+            color: map-get($colors, primario);
         }
         p a {
-            color: #00bfff;
+            color: map-get($colors, secundario);
             font-size: 1.5rem;
             padding: 1rem;  
             &:hover {

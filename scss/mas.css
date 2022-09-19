@@ -1,0 +1,21 @@
+.MAS {
+  margin-top: 250px;
+}
+.MAS img {
+  width: 100%;
+  height: 180px;
+}
+.MAS h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.MAS a {
+  padding: 10px 0;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+}
+.MAS a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=mas.css.map */

@@ -1,0 +1,19 @@
+table {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  caption-side: top;
+}
+table td, table th {
+  border: 2px solid lightskyblue;
+  padding: 10px 20px;
+}
+table caption {
+  font-size: 20px;
+}
+
+.inscripcion {
+  max-width: 300px;
+  margin: 100px auto 200px auto;
+}/*# sourceMappingURL=nav.css.map */
