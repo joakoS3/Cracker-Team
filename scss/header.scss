@@ -7,10 +7,10 @@ header{
         width: 100%;
         height: 550px;
         margin-bottom: 25px;
-        @include dis( flex, column)
+        @include dis( flex, column);
         h1 {
             font-size: 75px;
-            @include dis( flex, column)
+            @include dis( flex, column);
             align-items: center;
             color: map-get($colors, primario);
         }
